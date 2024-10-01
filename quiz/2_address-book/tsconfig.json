@@ -2,9 +2,10 @@
   "compilerOptions": {
     "allowJs": true,
     "checkJs": true,
-    "target": "es5",
+    "target": "es5", // 타입스크립트 컴파일러가 생성할 자바스크립트 코드가 실행될 환경을 지정
     "lib": ["es2015", "dom", "dom.iterable"],
-    "noImplicitAny": false
+    "noImplicitAny": true,
+    "strict": true
   },
   "include": ["./src/**/*"]
 }
